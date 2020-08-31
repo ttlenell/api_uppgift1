@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chuck Norris</h1>
+        <img id="chuckImg" src="https://de-roliga-skamt.se/wp-content/uploads/chuck-norris-skamt.jpg" alt="Chuck Norris guns">
+
+        <form id="jokeForm">
+            <label for="firstName">Förnamn</label>
+            <input type="text"
+                id="firstName"
+                 placeholder ="Chuck">
+            <label for="lastName">Efternamn</label>
+            <input type="text" id="lastName" placeholder ="Norris">
+            <button type="submit" id="jokeBtn" class="btn btn-secondary">Hämta skämt med ditt för och efternamn</button>
+            
+       
+        </form>
+        
+          
+            <p id="jokeText"></p>
+           
+    </div>
+
+    
+
+    <div class="container">
+
+        <button id="jokeBtnRandom" class="btn btn-primary">Hämta randomskämt</button>
+        <p id="jokeTextRandom"></p>
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
